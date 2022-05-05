@@ -1,2 +1,2 @@
 # helmcharts
-Repositorio para charts
+Repositorio de charts
