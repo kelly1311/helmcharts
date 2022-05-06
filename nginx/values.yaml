@@ -42,7 +42,6 @@ commonAnnotations: {}
 
 ## Bitnami NGINX image version
 ## ref: https://hub.docker.com/r/bitnami/nginx/tags/
-## ref: https://hub.docker.com/repository/docker/kelly1311/new-repo
 ## @param image.registry NGINX image registry
 ## @param image.repository NGINX image repository
 ## @param image.tag NGINX image tag (immutable tags are recommended)
@@ -52,8 +51,8 @@ commonAnnotations: {}
 ##
 image:
   registry: docker.io
-  repository: kelly1311/new-repo
-  tag: nginx-prueba
+  repository: bitnami/nginx
+  tag: 1.21.6-debian-10-r93
   ## Specify a imagePullPolicy
   ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'
   ## ref: https://kubernetes.io/docs/user-guide/images/#pre-pulling-images
